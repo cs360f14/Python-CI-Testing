@@ -11,3 +11,5 @@ install:
 # command to run tests
 script: 
   - python -m doctest -v docTestExample.py
+  - python -m unittest unittestExample -v
+  - python -m unittest unittestCards -v
