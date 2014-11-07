@@ -10,3 +10,4 @@ A repository to demonstrate Python and Travis CI testing
   * You can demonstrate a failing testcase by uncommenting test_thistestwillfail
 * cards.py - this file contains a class to be unittested
 * unittestCards.py - this file contains unittests for cards.py
+* unittestSimpleJSONExample.py - this file requires Travis-CI to install simplejson before running the tests.

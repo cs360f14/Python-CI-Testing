@@ -10,6 +10,9 @@
 ################################
 
 # adapted from https://docs.python.org/3/library/unittest.html
+#
+#
+
 
 # python3 -m unittest unittestSimpleJSONExample -v
 
@@ -17,17 +20,16 @@ import random
 import unittest
 import simplejson
 
+# the only goal of this file is to require that simplejson
+# is installed by Travis-CI before the test cases are run
+
 class TestListFunctions(unittest.TestCase):
 
-	listSize = 10
 
 	def setUp(self):
 		""" the text fixture, necessary setup for the tests to run
 		"""
-		self.theList = list(range(self.listSize))
-
-		# shuffle the list
-		random.shuffle(self.theList)
+		pass # nothing to do
 		
 	def tearDown(self):
 		""" nothing to tear down here
