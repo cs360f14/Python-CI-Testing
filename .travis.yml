@@ -13,5 +13,5 @@ script:
   - python -m doctest -v docTestExample.py
   - python -m unittest unittestExample -v
   - python -m unittest unittestCards -v
-  - python -m unittest unittestSimpleJSONExample -v
+  - nosetests unittestSimpleJSONExample -v
   - nosetests -v
