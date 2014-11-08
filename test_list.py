@@ -10,6 +10,7 @@
 ################################
 
 from nose import with_setup
+from nose.tools import assert_equals
 
 def test_simpleAddition():
 	assert 1+2 == 3
@@ -53,7 +54,6 @@ def test_dictSortedIterator():
 	# use the key parameter to convert the key to an integer and sort 
 	# numerically
 	for x in sorted(mapping.keys() , key=lambda data: int(data)) :
-		print( value, mapping[x])
-		assert value == mapping[x]
-		value += 1
+		assert_equals( value , mapping[x])
+		value += 1 
 
