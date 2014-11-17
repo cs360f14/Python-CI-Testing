@@ -11,3 +11,5 @@ A repository to demonstrate Python and Travis CI testing
 * cards.py - this file contains a class to be unittested
 * unittestCards.py - this file contains unittests for cards.py
 * unittestSimpleJSONExample.py - this file requires Travis-CI to install simplejson before running the tests.
+* test_UnitTests.py - add a copy of unittestExample.py that will be picked up by nosetests
+* test_list.py - added a new file for nosetests
