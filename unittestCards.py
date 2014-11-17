@@ -41,6 +41,8 @@ class TestDeckOfCardsFunctions(unittest.TestCase):
 
 	def test_shuffle(self):
 		""" make sure shuffle moves the first card
+		
+		This is a silly test that may not always pass!
 		"""
 		
 		card = self.theDeck.top()
