@@ -1,7 +1,7 @@
 Python-CI-Testing
 =================
 
-[![Build Status](https://travis-ci.org/chaddcw/Python-CI-Testing.svg)](https://travis-ci.org/chaddcw/Python-CI-Testing)
+[![Build Status](https://travis-ci.org/cs360f16/Python-CI-Testing.svg)](https://travis-ci.org/cs360f16/Python-CI-Testing)
 
 A repository to demonstrate Python and Travis CI testing
 
