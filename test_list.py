@@ -13,7 +13,7 @@ from nose import with_setup
 from nose.tools import assert_equals
 
 def test_simpleAddition():
-	assert 1+2 == 3
+	assert 1+3 == 4
 
 def setUp():
 	global theList 
